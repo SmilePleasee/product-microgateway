@@ -150,12 +150,12 @@ public final class Http2Handler extends Http2ConnectionHandler implements Http2F
     }
 
     @Override
-    public void onPingRead(ChannelHandlerContext ctx, ByteBuf data) {
+    public void onPingRead(ChannelHandlerContext ctx, long data) {
 
     }
 
     @Override
-    public void onPingAckRead(ChannelHandlerContext ctx, ByteBuf data) {
+    public void onPingAckRead(ChannelHandlerContext ctx, long data) {
 
     }
 
